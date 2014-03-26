@@ -95,17 +95,17 @@ sub getfiles {
 		if ($pattern) {
 			if (($name eq $pattern) and (-f "$path/$name")) {
 				push @files, $name;
-				print "pattern\n";
-				print $name . "\n";
-				print scalar @files . "\n";
+				#print "pattern\n";
+				#print $name . "\n";
+				#print scalar @files . "\n";
 			}
 		}
 		else {
 			if (-f "$path/$name") {
 				push @files, $name;
-				print "no pattern\n";
-				print $name . "\n";
-				print scalar @files . "\n";
+				#print "no pattern\n";
+				#print $name . "\n";
+				#print scalar @files . "\n";
 			}
 		}
 	}
