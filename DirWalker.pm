@@ -1,10 +1,6 @@
 #!/usr/bin/perl
 ##
 ##ToDo:
-##-File or dir distinction.
-##-Show R/W/X for current User.
-##-open fh on files.
-##-Enter dir (new object).
 #use strict;
 #use warnings;
 use Data::Dumper qw(Dumper);
