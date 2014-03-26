@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 ##
-##ToDo:
 #use strict;
 #use warnings;
 use Data::Dumper qw(Dumper);
